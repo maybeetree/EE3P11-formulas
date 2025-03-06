@@ -7,6 +7,10 @@ on:
 
 jobs:
   build:
+    # Needed by release action
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
 
     steps:
