@@ -1,0 +1,66 @@
+[
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 340.157,
+            "y": -264.567
+        },
+        "end": {
+            "x": 264.567,
+            "y": -264.567
+        },
+        "label": {
+            "value": "Z_S",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 340.157,
+            "y": -264.567
+        },
+        "end": {
+            "x": 340.157,
+            "y": -198.425
+        },
+        "label": {
+            "value": "Z_L",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ground",
+        "position": {
+            "x": 340.157,
+            "y": -198.425
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ground",
+        "position": {
+            "x": 264.567,
+            "y": -198.425
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-voltage-source",
+        "start": {
+            "x": 264.567,
+            "y": -264.567
+        },
+        "end": {
+            "x": 264.567,
+            "y": -198.425
+        },
+        "label": {
+            "value": "",
+            "distance": "0.12cm"
+        }
+    }
+]
