@@ -18,11 +18,11 @@ jobs:
       - name: Compile Typst document to PDF
         uses: lvignoli/typst-action@main
         with:
-          source_file: *.typ  # Specify your Typst file here
+          source_file: "*.typ"  # Specify your Typst file here
 
       - name: Upload PDF to Releases
         uses: softprops/action-gh-release@v1
         with:
-          files: *.pdf  # The output PDF file
+          files: "*.pdf"  # The output PDF file
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
